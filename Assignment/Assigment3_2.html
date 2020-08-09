@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Register</h1>
+	
+	<form>
+		<label for="First">First Name</label>
+		<input type="text" id="First" required>
+		<label for="Last">Last Name</label>
+		<input type="text" id="Last"required>
+
+		<div>
+		<label for="Male">Male</label>
+		<input type="radio" id="Male" name="Gender">
+		<label for="Female">Female</label>
+		<input type="radio" id="Female" name="Gender">
+		<label for="Others">Others</label>
+		<input type="radio" id="Female" name="Gender">
+		</div>
+		
+		
+		<label for="username">Email:</label>
+		<input type="Email" name="username" placeholder="your email"required>
+		<label for="Password">Password:</label>
+		<input type="Password" name="Password" pattern=".{5,10}" required title="Password must be between 5 and 10" placeholder="your password">
+
+		<br>
+		<label>Birthday:</label>
+		<label>Month</label>
+		<select name="Month">
+			<option>Month</option>
+			<option>January</option>
+			<option>February</option>
+			<option>March</option>
+		</select>
+
+		<select name="day">
+		<option>Day</option>
+		<option>Sunday</option>
+		<option>Monday</option>
+		<option>Tuesday</option>
+		</select>
+
+		<select name="year">
+		<option>Year</option>
+		<option>2000</option>
+		<option>2001</option>
+		<option>2002</option>
+		</select>
+		
+
+		<br>
+		<label>I agree to the terms and conditions</label>
+		<input type="checkbox" name="select">
+		
+		<br>
+		<input type="submit" id="username">
+	</form>
+	
+</body>
+</html>
